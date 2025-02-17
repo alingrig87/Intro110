@@ -1,0 +1,28 @@
+.box {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.box1 {
+	background-color: red;
+}
+
+.box2 {
+	background-color: blue;
+	position: relative;
+	top: 50px;
+	left: 50px;
+	z-index: 1000;
+}
+
+.box23 {
+	position: relative;
+}
+
+.box3 {
+	background-color: green;
+	position: absolute;
+	top: 50px;
+	z-index: 10;
+}
