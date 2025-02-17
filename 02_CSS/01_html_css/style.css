@@ -1,0 +1,12 @@
+h2,
+h3 {
+	color: blue;
+}
+
+h2 {
+	background-color: red;
+}
+
+h3 {
+	background-color: aqua;
+}

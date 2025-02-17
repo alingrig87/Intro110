@@ -1,0 +1,27 @@
+/* Tag selector */
+h2 {
+	background-color: bisque;
+}
+
+/* id selector */
+#main-container {
+	background-color: aqua;
+	padding: 20px;
+}
+
+/* class selector */
+.text-bold {
+	font-weight: bold;
+}
+
+.text-red {
+	color: red;
+}
+
+.bg-yellow {
+	background-color: yellow;
+}
+
+.rounded {
+	border-radius: 5px;
+}
