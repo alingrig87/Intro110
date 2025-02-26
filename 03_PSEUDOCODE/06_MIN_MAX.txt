@@ -1,0 +1,10 @@
+READ a
+READ b
+IF a < b THEN
+   max = b
+   min = a
+ELSE
+   max = a
+   min = b
+ENDIF
+WRITE "Valoarea minima este" + min + "si valoarea maxima este" + max

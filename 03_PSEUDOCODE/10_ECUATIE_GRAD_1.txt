@@ -1,0 +1,12 @@
+READ a
+READ b
+IF a==0 AND b!=0 THEN
+   WRITE "Ecuatia nu are solutii"
+   RETURN 
+ENDIF
+IF a==0 AND b==0 THEN
+   WRITE "Solutie: multimea numerelor reale"
+   RETURN 
+ENDIF
+x = -b/a
+WRITE "Solutie: x=" + x

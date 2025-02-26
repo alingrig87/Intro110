@@ -1,0 +1,12 @@
+READ n
+READ m
+IF n-m <= 1 THEN
+   WRITE "Nu exista valoarea de afisat"
+   RETURN 
+ENDIF
+i = n + 1
+WHILE i < m 
+   WRITE i
+   i = i + 1
+ENDWHILE
+

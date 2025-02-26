@@ -1,0 +1,24 @@
+Solutia 1
+
+READ n
+IF n > 0 THEN
+   WRITE "S-a introdus o valoare pozitiva"
+ELSE IF n < 0 THEN
+   WRITE "S-a introdus o valoare negativa"
+ELSE 
+   WRITE "S-a introdus o valoare nula"
+ENDIF
+
+Solutia 2
+
+READ n
+IF n == 0 THEN 
+   WRITE "S-a introdus o valoare nula"
+ELSE
+   IF n > 0 THEN
+      WRITE "S-a introdus o valoare pozitiva"
+   ELSE
+      WRITE "S-a introdus o valoarea negativa"
+   ENDIF
+ENDIF
+

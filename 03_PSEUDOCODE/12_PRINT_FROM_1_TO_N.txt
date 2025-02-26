@@ -1,0 +1,12 @@
+READ n
+i = 1
+WHILE i <= n 
+   WRITE i
+   i = i + 1
+ENDWHILE
+
+Solutia cu for
+READ n
+FOR (i = 1; i <= n; i = i + 1)
+   WRITE i
+ENDFOR

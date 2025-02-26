@@ -1,0 +1,8 @@
+READ a
+READ b
+IF b == 0 THEN
+   WRITE "Operatie imposibila, impartitorul este null"
+   RETURN
+ENDIF
+result = a/b
+WRITE "Rezultatul impartirii este" + result

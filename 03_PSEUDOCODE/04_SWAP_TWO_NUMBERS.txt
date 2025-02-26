@@ -1,0 +1,7 @@
+READ a
+READ b
+c = a
+a = b
+b = c
+WRITE a
+WRITE b

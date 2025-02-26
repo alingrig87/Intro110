@@ -1,0 +1,3 @@
+READ n
+n = n*(-1)
+WRITE n

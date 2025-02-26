@@ -1,0 +1,12 @@
+READ distanta
+READ durata
+IF distanta > 0 AND durata == 0 THEN
+   WRITE "Felicitari! Se pare ca ai inventat teleportarea!"
+   RETURN
+ENDIF
+IF distanta < 0 OR durata < 0 THEN
+   WRITE "Distanta parcursa si durata trebuie sa fie pozitive"
+   RETURN
+ENDIF
+vitezaMedie = distanta/durata
+WRITE "Viteza medie a fost" + vitezaMedie

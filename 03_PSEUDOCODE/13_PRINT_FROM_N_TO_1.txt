@@ -1,0 +1,18 @@
+READ n
+i = n - 1
+IF i < 0 THEN
+   WRITE "Introduceti un numar pozitiv"
+   RETURN
+ENDIF
+WHILE i >= 0 
+   WRITE i
+   i = i - 1
+ENDWHILE
+
+READ n
+IF n <= 0 THEN
+   WRITE "Introduceti un numar pozitiv"
+ENDIF
+FOR (i = n - 1; i >= 0; i = i-1)
+   WRITE i
+ENDFOR
