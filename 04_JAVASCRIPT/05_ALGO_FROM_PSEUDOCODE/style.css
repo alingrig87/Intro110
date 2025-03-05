@@ -46,3 +46,8 @@ button {
 button:hover {
 	background-color: green;
 }
+
+.output {
+	font-size: 18px;
+	color: darkblue;
+}
