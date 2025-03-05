@@ -8,7 +8,9 @@
 	</head>
 	<body>
 		<div class="exercise">
-			<p>1. Se citeste un numar intreg. Sa se afiseze urmatorul numar.</p>
+			<p class="requirement">
+				1. Se citeste un numar intreg. Sa se afiseze urmatorul numar.
+			</p>
 			<h4>Exemple:</h4>
 			<ul>
 				<li>se citeste 3, se afiseaza 4</li>
@@ -23,6 +25,127 @@
 				Afiseaza urmatorul numar
 			</button>
 			<p class="output" id="output1"></p>
+		</div>
+
+		<div class="exercise">
+			<p class="requirement">
+				2. Se citeste un un numar intreg. Sa se afiseze opusul lui
+			</p>
+			<h4>Exemple:</h4>
+			<ul>
+				<li>se citeste 3, se afiseaza -3</li>
+				<li>se citeste -4, se afiseaza 4</li>
+				<li>se citeste 0, se afiseaza 0</li>
+			</ul>
+
+			<div>
+				<label for="n2">Introduceti un numar</label>
+				<input type="text" id="n2" />
+			</div>
+			<button onclick="afiseazaOpusulNumarului()">Afiseaza opusul</button>
+			<p class="output" id="output2"></p>
+		</div>
+
+		<div class="exercise">
+			<p class="requirement">
+				3. Se citeste un un numar intreg. Sa se afiseze daca este pozitiv,
+				negativ sau nul.
+			</p>
+			<h4>Exemple:</h4>
+			<ul>
+				<li>se citeste 3, se afiseaza “S-a introdus o valoare pozitiva”</li>
+				<li>se citeste -4, se afiseaza “S-a introdus o valoare negativa”</li>
+				<li>se citeste 0, se afiseaza “S-a introdus o valoare nula”</li>
+			</ul>
+
+			<div>
+				<label for="n3">Introduceti un numar</label>
+				<input type="text" id="n3" />
+			</div>
+			<button onclick="afiseazaSemnulNumarului()">
+				Afiseaza semnul numarului
+			</button>
+			<p class="output" id="output3"></p>
+		</div>
+
+		<div class="exercise">
+			<p class="requirement">
+				4. Se citesc doua numere. Sa se interschimbe valorile in cele 2
+				variabile.
+			</p>
+			<h4>Exemple:</h4>
+			<ul>
+				<li>se citesc 3 si 2, se afiseaza 2 3</li>
+				<li>se citesc -3 si 2, se afiseaza 2 -3</li>
+			</ul>
+
+			<div>
+				<label for="n4">Primul numar</label>
+				<input type="text" id="n4" />
+			</div>
+			<div>
+				<label for="m4">Al doilea numar</label>
+				<input type="text" id="m4" />
+			</div>
+			<button onclick="interschimbaValorile()">Interschimba</button>
+		</div>
+
+		<div class="exercise">
+			<p class="requirement">
+				5. Se citeste un numar intreg pozitiv. Sa se afiseze toate numerele
+				pozitive nenule mai mici sau egale decat valoarea citita, in ordine
+				crescatoare
+			</p>
+			<h4>Exemple:</h4>
+			<ul>
+				<li>Se citeste 5. Se afiseaza 1 2 3 4 5</li>
+			</ul>
+
+			<div>
+				<label for="n5">Introduceti un numar</label>
+				<input type="text" id="n5" />
+			</div>
+			<button onclick="afiseazaDeLa1LaN()">Afiseaza de la 1 la n</button>
+			<p class="output" id="output5"></p>
+		</div>
+
+		<div class="exercise">
+			<p class="requirement">
+				6.Se citeste un numar. Sa se afiseze toti divizorii numarului citit
+			</p>
+			<h4>Exemple:</h4>
+			<ul>
+				<li>Se citeste 12. Se afiseaza 1 2 3 4 6 12</li>
+				<li>Se citeste 11. Se afiseaza 1 11</li>
+				<li>Se citeste 9. Se afiseaza 1 3 9</li>
+			</ul>
+
+			<div>
+				<label for="n6">Introduceti un numar</label>
+				<input type="text" id="n6" />
+			</div>
+			<button onclick="afiseazaDivizorii()">Afiseaza de la 1 la n</button>
+			<p class="output" id="output6"></p>
+		</div>
+
+		<div class="exercise">
+			<p class="requirement">
+				7.Se citeste un sir de caractere. Sa se afiseze procentajul de vocale.
+				Se ignora spatiile albe in calculul caracterelor.
+			</p>
+			<h4>Exemple:</h4>
+			<ul>
+				<li>Se citeste “Ana are mere”. Se afiseaza: 60%</li>
+			</ul>
+
+			<div>
+				<label for="text7">Introduceti un text</label>
+				<input type="text" id="text7" />
+			</div>
+			<button onclick="afiseazaProcentajVocale()">
+				Afiseaza procentaj vocale
+			</button>
+			<p class="output" id="output7"></p>
 		</div>
 
 		<script src="app.js"></script>
