@@ -1,0 +1,48 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: lightgrey;
+}
+
+.exercise {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0 4px 8px gray;
+	max-width: 500px;
+	margin: auto;
+}
+
+ul {
+	margin-top: 0;
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+label {
+	font-weight: bold;
+	display: block;
+	margin: 5px;
+}
+
+input {
+	width: 80%;
+	padding: 4px;
+	font-size: 18px;
+	border: 1px solid lightslategray;
+	border-radius: 5px;
+}
+
+button {
+	background-color: darkgreen;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: green;
+}
